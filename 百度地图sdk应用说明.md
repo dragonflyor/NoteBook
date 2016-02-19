@@ -14,7 +14,7 @@
     初始化地图引擎
     引入布局（地图控件）
 
-#######2.1获取APIkey   
+######2.1获取APIkey   
     获取API Key
     地址：http://developer.baidu.com/map/android-mobile-apply-key.htm
 
@@ -24,13 +24,13 @@
 		例如：48:8C:D9:43:56:81:C4:10:10:40:B6:C3:0A:A1:84:A9:65:65:9A:5A;baidumapsdk.demo
 		生成的key：V3ITMGba32313GGCLFLALQdP
 
-#######2.2添加地图引擎到Andoid工程中
+######2.2添加地图引擎到Andoid工程中
     添加引擎到Andoid工程中
     添加jar包： baidumapapi_v3_3_0.jar和locSDK_5.0.jar
     添加.so文件：拷贝libBaiduMapSDK_v3_3_0_15.so 、 liblocSDK5.so到libs\armeabi目录下
     注： locSDK_5.0.jar和liblocSDK5.so为百度定位SDK所使用资源，开发者可根据实际需求自行添加。 
 
-#######2.3权限设置
+######2.3权限设置
     <!-- 这个权限用于进行网络定位-->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
     <!-- 这个权限用于访问GPS定位-->
@@ -52,7 +52,7 @@
     <!--允许应用读取低级别的系统日志文件 -->
     <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
 
-#######2.4初始化地图引擎
+######2.4初始化地图引擎
 	增加权限重点是处理位置信息权限
 	Layout中添加MapView控件用于展示地图
 	创建管理工具，并初使化
@@ -95,4 +95,4 @@
 			}
 		}
 		
-	}
+	} 
